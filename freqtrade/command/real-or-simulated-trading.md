@@ -1,10 +1,12 @@
-# 📘 Chapter 2: "Live or Simulated Trading? Freqtrade `trade` Command Explained"
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+# 📘 Chapter 2: "Live or Simulated Trading? Freqtrade trade Command Explained"
+
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+
 `freqtrade trade` is the core command to start a live or simulated trading bot, and it’s the key step for deploying automated trading in practice.
 
 This article provides an in-depth guide to the `trade` command, covering usage, common parameters, configuration tips, and Docker deployment, ideal for those preparing for live trading or just finishing strategy backtesting.
 
----
+***
 
 ## 🚀 1. Basic Syntax
 
@@ -26,7 +28,7 @@ freqtrade trade \
 | `--db-url`   | Specify database file or connection (for storing trade history)     |
 | `--userdir`  | Set user directory path (default `user_data/`)                      |
 
----
+***
 
 ## 🧪 2. What is Dry-run Mode?
 
@@ -46,7 +48,7 @@ freqtrade trade --config user_data/config.json --strategy MyStrategy
 
 > ⚠️ It is recommended to run dry-run for at least 7 days before going live!
 
----
+***
 
 ### 🧩 3. Multi-strategy Support
 
@@ -70,7 +72,7 @@ Notes for multi-strategy:
 * All strategies must be importable from the specified directory
 * Use `--strategy-path` to specify additional paths if needed
 
----
+***
 
 ## 🐳 4. Running `trade` in Docker
 
@@ -104,7 +106,7 @@ After starting, you can access the Web UI to monitor trades:
 http://localhost:8888
 ```
 
----
+***
 
 ## 🧷 5. Recommended Configuration Options
 
@@ -127,7 +129,7 @@ Also recommended to configure:
 * `logging → logfile`: log output
 * `db_url`: connect to SQLite/Postgres to store trade history
 
----
+***
 
 ## ✅ 6. Pre-Live Checklist
 
@@ -139,7 +141,7 @@ Also recommended to configure:
 | API key set?             | ✅ And recommend IP whitelist                     |
 | Monitor logs and errors? | ✅ Save logs using `--logfile`                    |
 
----
+***
 
 ## 📌 Summary
 

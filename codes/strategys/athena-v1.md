@@ -133,7 +133,3 @@ This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Qua
 **Athena Strategy, Crypto Quant Trading, BTC Strategy, ETH Quant Trading, Short-term Strategy, Quant Backtest, Crypto Trading Strategy, Stable Profit Strategy, Low Drawdown Quant, High-frequency Crypto Trading**
 
 ***
-
-✅ This is a **complete English version** preserving the format and technical tone.
-
-Do you want me to **also convert the monthly performance table headers into English** while keeping the numbers intact? Or keep it exactly as it is?

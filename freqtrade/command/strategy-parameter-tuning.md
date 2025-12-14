@@ -1,10 +1,12 @@
 # 📘 Chapter 5: "How to Optimize Strategy Parameters? Freqtrade Hyperopt Quick Start"
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
-In strategy development, beyond constructing buy/sell logic, **parameter settings often determine the final profit and risk ratio**.
+
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
+
+&#x20;In strategy development, beyond constructing buy/sell logic, **parameter settings often determine the final profit and risk ratio**.
 
 Freqtrade provides a powerful `hyperopt` function for **automated search of optimal parameter combinations**, greatly accelerating strategy iteration.
 
----
+***
 
 ## 🧠 1. What is Hyperopt and When to Use It?
 
@@ -20,7 +22,7 @@ Hyperopt is an **automated parameter optimization tool** that can:
 * Searching for combinations that perform best over historical periods
 * Avoiding manual parameter tuning
 
----
+***
 
 ## 🚻 2. Dependency Installation
 
@@ -38,7 +40,7 @@ For full functionality including freqai or telegram support:
 pip install 'freqtrade[all]'
 ```
 
----
+***
 
 ## 🚀 3. Basic Command and Parameters
 
@@ -60,7 +62,7 @@ freqtrade hyperopt \
 | `--epochs`        | Number of iterations (more = more precise but slower)   |
 | `--spaces`        | Which parameter spaces to optimize (default: buy, sell) |
 
----
+***
 
 ## 🎯 4. Common Hyperopt Loss Functions
 
@@ -72,7 +74,7 @@ freqtrade hyperopt \
 | `CalmarHyperOptLoss`      | Return / max drawdown ratio | Risk-aware preference             |
 | `TrailingBuyHyperOptLoss` | For trailing buy strategies |                                   |
 
----
+***
 
 ## 🧩 5. Defining Hyperparameters
 
@@ -88,7 +90,7 @@ class MyStrategy(IStrategy):
 
 Freqtrade will automatically search for the best combination within the defined ranges.
 
----
+***
 
 ## ⚠️ 6. Common Pitfalls
 
@@ -120,7 +122,7 @@ Recommendations:
 * Limit parameters to 3–6
 * Use effective ranges (e.g., RSI from 10–50 instead of 1–100)
 
----
+***
 
 ## 🛠️ 7. Example Strategy and Hyperopt Run
 
@@ -172,7 +174,7 @@ docker compose run --rm freqtrade hyperopt \
   --timerange 20230101-20230630
 ```
 
----
+***
 
 ### 🎯 Adjustable Parameters
 
@@ -188,7 +190,7 @@ docker compose run --rm freqtrade hyperopt \
 3. `default=...` is the manually set default
 4. Run backtesting first to confirm basic strategy logic
 
----
+***
 
 ## 📊 8. Hyperopt Evaluation Metrics
 
@@ -205,11 +207,11 @@ Common metrics:
 
 You can also define custom evaluation functions.
 
----
+***
 
 ## ✅ 9. Recommended Workflow
 
-```text
+```
 1. Use new-strategy to define strategy and parameters
 2. Run backtesting to validate basic logic
 3. Use hyperopt for automated parameter tuning
@@ -218,7 +220,7 @@ You can also define custom evaluation functions.
 6. Visualize results → decide whether to go live
 ```
 
----
+***
 
 ## 📌 Summary
 

@@ -1,4 +1,4 @@
-# BoneEdge Strategy Full Report (2020-01-01 to 2025-08-01)
+# athena-v1
 
 ***
 
@@ -148,4 +148,3 @@ This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Qua
 
 ***
 
-✅ Do you want me to **also translate the FAQ humorous remarks in the same playful tone** or keep it formal? ✅ And should I **format the big table of monthly data exactly as is (with English headers)**?

@@ -1,8 +1,10 @@
 # 📘 Chapter 6: "Show and Tell! plot-dataframe Chart Visualization Tutorial"
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+
 During strategy development, backtesting results are often presented in tabular form, making it difficult to quickly identify issues. The `plot-dataframe` command can visualize buy/sell points, indicator lines, and price movements in charts, helping you instantly see strategy performance.
 
----
+***
 
 ## 🎯 1. Basic Usage: Plotting Charts
 
@@ -19,7 +21,7 @@ After execution, an `.html` file will be generated under `user_data/plot/`, whic
 * Buy/Sell points (arrows)
 * Technical indicators (e.g., EMA, MACD)
 
----
+***
 
 ## 🧾 2. Parameter Details
 
@@ -33,7 +35,7 @@ After execution, an `.html` file will be generated under `user_data/plot/`, whic
 | `--exportfilename` | Export file path (supports `.html` or `.png`)                   |
 | `--userdir`        | Custom `user_data` path (default is fine)                       |
 
----
+***
 
 ## 📐 3. Adding Custom Indicators
 
@@ -74,7 +76,7 @@ These indicator names must match the column names in your strategy class’s `po
 * Otherwise, no error will occur, but the chart will not display the desired lines.
 * Indicators must be defined in `populate_indicators()` to take effect.
 
----
+***
 
 ## 💾 4. Export as HTML / PNG
 
@@ -92,7 +94,7 @@ To export as PNG (static image):
 
 > 📌 Note: Exporting PNG requires additional tools like Puppeteer or headless Chrome. Beginners are recommended to use HTML format.
 
----
+***
 
 ## 🐳 5. Running in Docker
 
@@ -107,7 +109,7 @@ docker compose run --rm freqtrade plot-dataframe \
 
 Make sure the `/quants/freqtrade/user_data` directory is correctly mounted in `docker-compose.yml`.
 
----
+***
 
 ## ✅ 6. Usage Suggestions
 
@@ -118,7 +120,7 @@ Make sure the `/quants/freqtrade/user_data` directory is correctly mounted in `d
 | Share strategy                 | Export chart as HTML for easy presentation          |
 | Evaluate indicator performance | Plot multiple indicators to check redundancy        |
 
----
+***
 
 ## 📌 Summary
 

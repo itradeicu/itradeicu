@@ -1,11 +1,12 @@
-# 📘 Chapter 3: "How to Download Historical K-Line Data in Crypto? Freqtrade `download-data` Tutorial"
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
-In Freqtrade, **K-line data is the foundation for backtesting, optimization, and live trading**.
-Whether you are a strategy developer or researcher, mastering the `download-data` command is the first step in quantitative trading.
+# 📘 Chapter 3: "How to Download Historical K-Line Data in Crypto? Freqtrade download-data Tutorial"
+
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+
+In Freqtrade, **K-line data is the foundation for backtesting, optimization, and live trading**. Whether you are a strategy developer or researcher, mastering the `download-data` command is the first step in quantitative trading.
 
 This article explains how to use `freqtrade download-data` to download historical market data, including common parameters, Docker usage, download recommendations, and supported exchanges.
 
----
+***
 
 ## 📥 1. Basic Command Format
 
@@ -39,7 +40,7 @@ freqtrade download-data \
 | `--days`       | Download the last N days of data (mutually exclusive with `timerange`) |
 | `--config`     | (Optional) Use an existing config file to specify exchange             |
 
----
+***
 
 ## 📊 2. Suggestions for Downloading Multiple Coins / Timeframes
 
@@ -62,7 +63,7 @@ freqtrade download-data --timeframes 15m
 freqtrade download-data --timeframes 1h
 ```
 
----
+***
 
 ## 🐳 3. Downloading Data in Docker
 
@@ -82,7 +83,7 @@ volumes:
   - "./user_data:/quants/freqtrade/user_data"
 ```
 
----
+***
 
 ## 📂 4. Where Is the Data Stored?
 
@@ -100,7 +101,7 @@ user_data/data/binance/BTC_USDT_USDT-5m-futures.feather
 
 Freqtrade automatically recognizes and uses these files for backtesting and optimization.
 
----
+***
 
 ## 🔍 5. Supported Exchanges in Freqtrade
 
@@ -123,7 +124,7 @@ Common supported exchanges (may vary by version):
 
 > ⚠️ Some exchanges require an API key to download historical data.
 
----
+***
 
 ## ✅ 6. Notes and Recommendations
 
@@ -134,12 +135,11 @@ Common supported exchanges (may vary by version):
 | Longer historical data | Too long data may mislead due to structural market changes                                 |
 | Local storage          | 1m data consumes significant disk space                                                    |
 
----
+***
 
 ## 📌 Summary
 
-`freqtrade download-data` is the starting point for all strategy development.
-This article covered:
+`freqtrade download-data` is the starting point for all strategy development. This article covered:
 
 * Parameter usage: exchange / pairs / timeframes / timerange
 * Techniques for downloading multiple coins and multiple timeframes
