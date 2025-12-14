@@ -1,27 +1,63 @@
 # 📈 Content Treasure Trove
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
-Here’s the list of our currently available quantitative trading strategies. More strategies and exclusive perks are coming soon—grab them early to start profiting! Prices will increase soon, so early buyers get the advantage.
 
----
+## 📈 Content Treasury
 
-💎 **Full VIP Access**: `299 USDT` (Includes **all content on the site** for unlimited access)
-⚡ Early bird price, limited-time offer! As we add more strategies, membership prices will gradually rise. Buy early to enjoy profits sooner! 😉
+Below are the currently available quantitative trading strategies. More strategies and benefits are coming soon. Seize the opportunity to use them first and profit early! Prices will be adjusted soon!
 
----
+***
 
-## Strategy Collection
+> 🔜 This site will continuously update with more quantitative tools and benefits coming soon. Please follow [https://itrade.icu](https://itrade.icu)!
 
-* 🗡 **Bone Edge Strategy** (Value: `99.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/strategys/bone-edge-v1.html) | Average monthly ROI: `762.05%`
-* 🐋 **Whale Strategy** (Value: `59.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/strategys/whale-v1.html) | Average annual ROI: `473.95%`
-* 👻 **Specter Strategy** (Value: `129.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/strategys/specter-v1.html) | Average monthly ROI: `13,407.95%`
-* 👸 **Athena Strategy** (Value: `109.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/strategys/athena-v1.html) | Average monthly ROI: `12,248.60%`
-* 🔜 More strategies coming soon—stay tuned!
+\--- 💎 (includes free access to `all content on the site`). All content is shared `in source code`, absolutely no tricks or empty content!!
 
----
+⚡ Early bird price, limited time offer! As more strategies are added, membership prices will gradually increase. Buy early and enjoy the benefits sooner! 😉
 
-## Perks Collection
+***
 
-* 📊 **CEX + DEX Market Monitoring** (Value: `39.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/welfare/market.html) | Real-time indicators, easily spot market opportunities
-* 🏅 **Batch Backtesting Freqtrade Strategy Source Code** (Value: `9.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/welfare/testing.html) | Supports monthly, quarterly, semi-annual, and annual backtests, with customizable config.json and strategies
-* ⚡ **Flash Loan Video Tutorial + Source Code** (Value: `99.99 USDT`) → [View Details](https://www.itrade.icu/en/codes/welfare/flashs.html) | Hands-on flash loan practice on Uniswap, Aave, dYdX, and DODO
-* 🔜 More quant tools and perks coming soon—stay tuned!
+### Strategy Collection
+
+* 🗡 **Bone Edge Strategy** (Value: `99.99 USDT`) → View Details | Average Monthly Return `762.05%`
+* 🐋 **Whale Strategy** (Value: `59.99 USDT`) → View Details | Average Annual Return `473.95%`
+* 👻 **Specter Strategy** (Value: `129.99 USDT`) → View Details | Average Monthly Return `13,407.95%`
+* 👸 **Athena Strategy** (Value: `109.99 USDT`) → View Details | Average Monthly Return `12248.60%`
+
+### TradingView
+
+> Currently, all TradingView resources are provided in a `shared source code` model. This may be changed to a subscription model in the future, and the source code may no longer be open-source. Please cherish this opportunity.
+
+* ☁️ **Trend Fluctuation Cloud Indicator** (Value: `99.99 USDT`) → View Details | Easily grasp market trends based on bullish and bearish signals.
+* 📈 **Trend Breakout Indicator** (Value: `59.99 USDT`) → View Details | Easily grasp market trends based on bullish and bearish signals.
+* ⛰️ **Peak-Wave Strategy** (Value: `119.99 USDT`) → View Details | Combines peaks and troughs with momentum analysis to accurately capture trend reversal and breakout opportunities.
+* ⛓️‍💥 **Quantum DCA Strategy** (Value: `129.99 USDT`) → View Details | A smart dollar-cost averaging strategy integrating grid trading and trend analysis, gradually building positions at low levels and dynamically taking profits at high levels.
+* 📦 **Box Momentum Trader Strategy** (Value: `159.99 USDT`) → View Details | Utilizes price boxes and momentum breakout signals to capture breakout opportunities after consolidation, achieving a high win rate entry.
+
+### Welfare Collection
+
+* 📊 **CEX + DEX Full Market Monitoring** (Value: `39.99 USDT`) → View Details | Real-time indicator push, easily grasp market opportunities
+* 🏅 **Batch Backtesting Freqtrade Strategy Source Code** (Value: `9.99 USDT`) → View Details | Supports monthly, quarterly, semi-annual, and annual backtesting, customizable config.json and strategies
+* ⚡ **Flash Loan Video Tutorial + Source Code, Learn to Make Money Step by Step** (Value: `99.99 USDT`) → View Details | Practical demonstration of flash loans on four major protocols: Uniswap, Aave, dYdX, and DODO
+* 🌍 **Cryptocurrency Long/Short Strategy (Purchase for 1000 USDT)** (`Member Download Only`) → View Details | Current policy allows members to download only; it is not sold separately.
+* 👛 **Secure Wallet Source Code, Protect Your Assets** (Value: `59.99 USDT`) → View Details | Customize your encrypted wallet and securely store your digital currency.
+* 📈 **TradingView 50+ High-Frequency Quantitative Trading Indicators** (Value: `99.99 USDT`) → View Details | Customize your encrypted wallet and securely store your digital currency.
+* 🧭 **On-Chain DEX Market Monitoring System (Free/Super Monitoring Version)** (Value: `69.99 USDT`) → View Details | Real-time multi-chain market monitoring, token popularity ranking, token liquidity, token holding addresses, trading volume, and other monitoring.
+* 👲 **Multi-Chain Private Key Collision** (Value: `99.99 USDT`) → View Details | Multi-chain private key collision, those who know, know
+* 🤖 **AI Quantitative Automated Trading (Developed by an Excellent Team)** (Value: `5.99 USDT`) → View Details | AI Quantitative Automated Trading, Supports Multiple IA + Multiple Exchanges
+* ⚙️ **AI Quantitative Automated Trading (Self-Developed + Strategy Signals)** (Value: `199.99 USDT`) → View Details | AI Quantitative Automated Trading, Supports Multiple IA + Multiple Exchanges + Strategy Signals
+* 🕸️ **Enterprise-grade Grid Quantitative Trading System (Multi-Exchange)** (Value: `399.99 USDT`) → View Details | Multi-exchange + multi-grid mode + grid trading, etc.
+
+### 📢 Upcoming Updates
+
+The following features will be released soon, in no particular order—stay tuned! All source code will be **freely available for download to members**, who will also enjoy **early access, dedicated technical support**, and a range of additional useful tools.
+
+* [x] Private Key Collision (EVM, TRON, SOLANA)
+* [x] deepseekAI Quantitative Trading (Supports multiple exchanges)
+* [ ] deepseekAI Latest News Filtering for Order Placement (Supports multiple exchanges)
+* [ ] Building a High-Frequency Quantitative Trading Framework (Supports multiple exchanges)
+* [x] On-Chain Address Monitoring
+* [x] Centralized Exchanges Focus on New Coin Acquisition
+* [x] Enterprise-Level Grid Trading System
+* [ ] AI PolyMarket
+* [ ] Funding Rate Arbitrage
+* [ ] Complete Personal Trading System
+* [ ] On-chain liquidity monitoring (large inflows and outflows, abnormal fluctuations in trading pairs)
+* [x] For other needs, please contact the author

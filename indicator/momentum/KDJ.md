@@ -1,24 +1,20 @@
 # 📘 Full Analysis of the KDJ Indicator: From Principles and Calculations to Quantitative Practice
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
----
+
+## This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
 
 ## I. ✅ Basic Concepts
 
-The KDJ indicator, also known as the **Stochastic Oscillator**, was proposed by George Lane in the 1950s.
-It is a **momentum indicator** used to measure the position of the current price relative to the high–low range over a given period.
-KDJ extends the traditional KD indicator by introducing the **J value** to strengthen signal intensity.
+The KDJ indicator, also known as the **Stochastic Oscillator**, was proposed by George Lane in the 1950s. It is a **momentum indicator** used to measure the position of the current price relative to the high–low range over a given period. KDJ extends the traditional KD indicator by introducing the **J value** to strengthen signal intensity.
 
 * **K Value**: Reflects short-term price fluctuations
 * **D Value**: A smoothed moving average of K
 * **J Value**: `J = 3×K − 2×D`, strengthening overbought/oversold signals
-* **RSV (Raw Stochastic Value)**: An important intermediate value in the calculation of KDJ.
-  It is a percentage that represents the current price’s position within the recent trading range.
-
+* **RSV (Raw Stochastic Value)**: An important intermediate value in the calculation of KDJ. It is a percentage that represents the current price’s position within the recent trading range.
   * RSV close to 100 → Price near recent high (overbought).
   * RSV close to 0 → Price near recent low (oversold).
   * RSV is the foundation for calculating K and D, which are smoothed to form the KDJ indicator.
 
----
+***
 
 ## II. 🧮 Calculation Details
 
@@ -49,11 +45,11 @@ D = (2/3) * D_prev + (1/3) * K
 J = 3 * K - 2 * D
 ```
 
----
+***
 
 Let’s **simulate a complete KDJ calculation** and display the daily RSV, K, D, and J results in an Excel-style table.
 
----
+***
 
 ## III. 🧮 Complete KDJ Calculation Example (9-day Period)
 
@@ -61,7 +57,7 @@ Let’s **simulate a complete KDJ calculation** and display the daily RSV, K, D,
 > * Simulate 10 days of data
 > * Assume High, Low, and Close prices are known
 
----
+***
 
 ### 📊 Sample Data
 
@@ -78,12 +74,11 @@ Let’s **simulate a complete KDJ calculation** and display the daily RSV, K, D,
 | 9   | 95    | 90        | 110        | (95-90)/(110-90)\*100  | 25.00 |
 | 10  | 92    | 90        | 110        | (92-90)/(110-90)\*100  | 10.00 |
 
----
+***
 
 ### 🧾 K, D, J Iteration
 
-> Initialization: `K₀ = 50`, `D₀ = 50`
-> Formula:
+> Initialization: `K₀ = 50`, `D₀ = 50` Formula:
 
 ```
 Kₙ = 2/3 × Kₙ₋₁ + 1/3 × RSVₙ
@@ -104,14 +99,13 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 | 9   | 25  | 2/3×62.11 + 1/3×25 | 49.41 | 2/3×64.34 + 1/3×49.41 | 59.36 | 30.92 |
 | 10  | 10  | 2/3×49.41 + 1/3×10 | 36.27 | 2/3×59.36 + 1/3×36.27 | 51.66 | 9.22  |
 
----
+***
 
 ### 📉 Line Chart
 
 * `K Value`: Red curve
 * `D Value`: Blue curve
-* `J Value`: Green curve (usually most volatile)
-  ![KDJ Line Chart](./image.png)
+* `J Value`: Green curve (usually most volatile) ![KDJ Line Chart](../../.gitbook/assets/image.png)
 
 ### ✅ Observations
 
@@ -119,7 +113,7 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 * Day 9–10 → J value drops rapidly → Oversold warning
 * Day 10 → Possible rebound attempt, but requires trend confirmation
 
----
+***
 
 ## IV. 🔁 Trading Signals (KDJ)
 
@@ -132,7 +126,7 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 | **High Death Cross** | K/D > 80, Death Cross            | Strong sell signal                  | Consider exit/short, especially at trend tops                         |
 | **Low Golden Cross** | K/D < 20, Golden Cross           | Strong buy signal                   | Consider long/entry, especially near support                          |
 
----
+***
 
 ### 🧠 Notes
 
@@ -140,7 +134,7 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 * **K/D crossovers are core buy/sell signals**, but are prone to noise in sideways markets; use with trend filters (e.g., EMA, ADX).
 * **Crossovers in extreme zones are more reliable**; mid-range signals require caution.
 
----
+***
 
 ## V. ⚖️ Advantages & Disadvantages of KDJ
 
@@ -154,7 +148,7 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 | **Identifies extremes**              | J > 100 or J < 0 provides intuitive signals of market overheating/overselling.                                 |
 | **Works well with other indicators** | Often combined with RSI, MACD, Bollinger Bands for robust systems.                                             |
 
----
+***
 
 ### ❌ Disadvantages
 
@@ -166,19 +160,18 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 | **Fixed parameters**          | Common (9,3,3) settings may not suit all assets/timeframes.             |
 | **Ignores volume**            | Based only on price; lacks context from market flows.                   |
 
----
+***
 
 ### 🧠 Usage Recommendations
 
 * Best suited for: **short-term range trading**, **catching rebounds**, or **exit timing** when paired with trend tools.
 * Not suitable as a standalone: **trend identification** or **sole buy/sell signal** in strong trends.
 * Suggested combinations:
-
   * RSI, MACD → confirm trends
   * Support/resistance, Bollinger Bands → improve win rate
   * Threshold filtering → e.g., only trade Golden Cross when K/D < 30
 
----
+***
 
 ## VI. ⚠️ KDJ Signal Traps & Countermeasures
 
@@ -191,10 +184,11 @@ Jₙ = 3 × Kₙ − 2 × Dₙ
 | **Oversold but no rebound**  | J < 0 but price keeps falling                  | Weak market, rebound not triggered         | Wait for divergence, volume increase, MACD Golden Cross                   |
 | **Multi-timeframe conflict** | Daily KDJ Golden Cross, 4H Death Cross         | Signals differ across timeframes           | Trade with main timeframe, use lower timeframe as reference               |
 
----
+***
+
 Here’s the English translation of your KDJ strategy guide, keeping the structure, technical terms, and examples intact:
 
----
+***
 
 ### 🧠 Strategy Recommendations
 
@@ -206,7 +200,7 @@ Here’s the English translation of your KDJ strategy guide, keeping the structu
 | **Structure & Pattern Validation** | Combine with price structures like triangle breakouts, head & shoulders, or box edges to decide entry/exit | Golden cross appearing at a support level or previous platform bottom is more reliable                   |
 | **Multi-Timeframe Usage**          | Use higher timeframe to determine trend, lower timeframe for precise entry timing                          | Daily trend upward, enter on 4H golden cross; daily sideways, ignore 30min signals                       |
 
----
+***
 
 ### 📌 Practical Tips
 
@@ -214,75 +208,47 @@ Here’s the English translation of your KDJ strategy guide, keeping the structu
 * Sideways markets are the riskiest for KDJ; use smoother indicators like MACD in these conditions.
 * In high-frequency short-term strategies (e.g., Freqtrade), KDJ can be used for “swing capturing,” but always adjust dynamically according to market state.
 
----
+***
 
 ## VII. 🧠 Advanced KDJ Usage: Make the Indicator a Multi-Functional Tool
 
----
+***
 
 ### 1. Multi-Timeframe Alignment: Major & Minor Timeframes for Higher Accuracy
 
-* **Technique**
-  Use a higher timeframe to determine the trend, and a lower timeframe to find precise entry points, avoiding counter-trend trades and false signals.
+* **Technique** Use a higher timeframe to determine the trend, and a lower timeframe to find precise entry points, avoiding counter-trend trades and false signals.
+* **Principle** Trends often start on lower timeframes and gradually propagate to higher timeframes. Signals aligned across multiple timeframes significantly improve accuracy and win rate.
+* **Practical Example** Daily chart shows a KDJ golden cross with K < 30, indicating a mid-term accumulation area; wait for a 4H KDJ golden cross with a volume breakout above the previous high to enter; take-profit can be set near previous highs or Bollinger Band upper band.
+* **Notes** Higher timeframe determines direction; lower timeframe determines timing. If the higher timeframe has no clear trend, lower timeframe signals may just be noise. Avoid extremely wide timeframe gaps, e.g., monthly vs. 15min, which may produce distorted signals.
 
-* **Principle**
-  Trends often start on lower timeframes and gradually propagate to higher timeframes. Signals aligned across multiple timeframes significantly improve accuracy and win rate.
-
-* **Practical Example**
-  Daily chart shows a KDJ golden cross with K < 30, indicating a mid-term accumulation area; wait for a 4H KDJ golden cross with a volume breakout above the previous high to enter; take-profit can be set near previous highs or Bollinger Band upper band.
-
-* **Notes**
-  Higher timeframe determines direction; lower timeframe determines timing. If the higher timeframe has no clear trend, lower timeframe signals may just be noise. Avoid extremely wide timeframe gaps, e.g., monthly vs. 15min, which may produce distorted signals.
-
----
+***
 
 ### 2. Combining with Bollinger Bands: Filter Strong Signals in Overbought/Oversold Areas
 
-* **Technique**
-  Use Bollinger Bands to limit price range and combine with KDJ to filter noise and improve extreme-level signal accuracy.
+* **Technique** Use Bollinger Bands to limit price range and combine with KDJ to filter noise and improve extreme-level signal accuracy.
+* **Principle** KDJ is an oscillator, while Bollinger Bands represent price ranges. Together, they precisely identify extreme buying and selling zones.
+* **Practical Example** When KDJ golden cross occurs and price touches the lower Bollinger Band, it forms a support resonance signal, suitable for buying. Conversely, a KDJ death cross near the upper band is a strong short signal.
+* **Notes** Narrow Bollinger Bands indicate sideways markets; KDJ signals are frequent and often invalid. Expanding bands indicate stronger trends; prioritize trend-following and ignore some overbought/oversold signals.
 
-* **Principle**
-  KDJ is an oscillator, while Bollinger Bands represent price ranges. Together, they precisely identify extreme buying and selling zones.
-
-* **Practical Example**
-  When KDJ golden cross occurs and price touches the lower Bollinger Band, it forms a support resonance signal, suitable for buying. Conversely, a KDJ death cross near the upper band is a strong short signal.
-
-* **Notes**
-  Narrow Bollinger Bands indicate sideways markets; KDJ signals are frequent and often invalid. Expanding bands indicate stronger trends; prioritize trend-following and ignore some overbought/oversold signals.
-
----
+***
 
 ### 3. Trendlines or Support/Resistance: Structure Break + Momentum Confirmation
 
-* **Technique**
-  When price breaks a key trendline or support/resistance, KDJ confirming the move gives the strongest signal.
+* **Technique** When price breaks a key trendline or support/resistance, KDJ confirming the move gives the strongest signal.
+* **Principle** Technical structure breaks are the core logic of trading; KDJ momentum confirmation validates the effectiveness of the breakout.
+* **Practical Example** Daily downtrend line is broken and KDJ simultaneously forms a golden cross, confirming a valid breakout for long entry. Or near resistance, price oscillates with KDJ death cross plus volume drop, confirming short entry.
+* **Notes** Trendlines must connect at least two points to be valid. It’s best to confirm momentum with MACD or volume. Beware of false breakouts, e.g., KDJ golden cross without volume or weak candle bodies may be a bull trap.
 
-* **Principle**
-  Technical structure breaks are the core logic of trading; KDJ momentum confirmation validates the effectiveness of the breakout.
-
-* **Practical Example**
-  Daily downtrend line is broken and KDJ simultaneously forms a golden cross, confirming a valid breakout for long entry. Or near resistance, price oscillates with KDJ death cross plus volume drop, confirming short entry.
-
-* **Notes**
-  Trendlines must connect at least two points to be valid. It’s best to confirm momentum with MACD or volume. Beware of false breakouts, e.g., KDJ golden cross without volume or weak candle bodies may be a bull trap.
-
----
+***
 
 ### 4. Other Recommended Techniques
 
-* **KDJ Divergence with Elliott Waves**
-  A death cross on wave 5 signals a strong reversal.
+* **KDJ Divergence with Elliott Waves** A death cross on wave 5 signals a strong reversal.
+* **Volume Confirmation** KDJ golden cross with rising volume confirms strong entry momentum.
+* **Second Golden Cross in Overbought Zone** If the first golden cross fails, a second one often indicates a true start.
+* **Using J to Identify Extreme Reversals** When J < 0 for an extended period, a subsequent golden cross confirms a bottom.
 
-* **Volume Confirmation**
-  KDJ golden cross with rising volume confirms strong entry momentum.
-
-* **Second Golden Cross in Overbought Zone**
-  If the first golden cross fails, a second one often indicates a true start.
-
-* **Using J to Identify Extreme Reversals**
-  When J < 0 for an extended period, a subsequent golden cross confirms a bottom.
-
----
+***
 
 ## VIII. 📈 Freqtrade Strategy Example: `TalibKDJStrategy`
 
@@ -335,14 +301,13 @@ class TalibKDJStrategy(IStrategy):
         return dataframe
 ```
 
----
+***
 
 ### 📊 Freqtrade Backtest Report: `TalibKDJStrategy`
 
-> Backtest period: **2024-06-01 00:00 → 2024-07-01 00:00**
-> Max simultaneous positions: **2**
+> Backtest period: **2024-06-01 00:00 → 2024-07-01 00:00** Max simultaneous positions: **2**
 
----
+***
 
 ### 🧾 Strategy Performance Summary
 
@@ -360,7 +325,7 @@ Using KDJ alone carries considerable risk.
 | 🏆 Win Rate             | `15.1%`                |
 | 📉 Max Drawdown         | `279.81 USDT (28.03%)` |
 
----
+***
 
 ## IX. 🧾 Summary
 
@@ -370,4 +335,3 @@ KDJ is simple and intuitive, particularly suitable for short-term trades in osci
 * **Trend confirmation is crucial**; combine with EMA or MACD to avoid frequent stop losses in counter-trend trades.
 * **Optimize parameters and timeframes according to market characteristics**, e.g., 15min for high-volatility intraday markets, 4H for longer-term targets.
 * **Multi-factor confirmation improves signal quality**, e.g., combine Bollinger Bands and RSI to filter false signals, significantly increasing strategy stability.
-

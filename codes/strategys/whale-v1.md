@@ -1,8 +1,6 @@
-# **Whale Strategy Full Report (20200101 - 20250701)**
+# Whale Strategy Full Report (20200101 - 20250701)
 
----
-
-
+***
 
 ## 📊 **Strategy Overview**
 
@@ -10,7 +8,7 @@ This report is produced by [https://www.itrade.icu](https://www.itrade.icu) Quan
 
 We used **real market data** combined with a **quant backtesting engine** to conduct a continuous **5 years and 7 months backtest** and **live trading test** on the Whale Strategy, achieving impressive results.
 
----
+***
 
 ## **Lookahead Bias Test**
 
@@ -32,25 +30,17 @@ This means the strategy **did not use future data during backtesting**, so resul
 └────────────────────┴─────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
 ```
 
----
+***
 
 ## **Backtest Report**
 
-The strategy was backtested using data from `2020-01-01 to 2025-07-01`.
-View full reports here:
-[Quarterly Report](./whale-v1-quarterly-20200101-20250701.md) | [Semi-Annual Report](./whale-v1-semi-annually-20200101-20250701.md) | [Annual Report](./whale-v1-annually-20200101-20250701.md)
+The strategy was backtested using data from `2020-01-01 to 2025-07-01`. View full reports here: [Quarterly Report](whale-v1-quarterly-20200101-20250701.md) | [Semi-Annual Report](whale-v1-semi-annually-20200101-20250701.md) | [Annual Report](whale-v1-annually-20200101-20250701.md)
 
----
+***
 
 ### **Backtest Charts**
 
-![](/codes/strategys/whale-v1_1.png)
-
-![](/codes/strategys/whale-v1_2.png)
-
-![](/codes/strategys/whale-v1_3.png)
-
----
+***
 
 ### **Quarterly Report**
 
@@ -64,7 +54,7 @@ View full reports here:
 | Avg. Win Rate (%)            | 66.77%     |
 | Max Drawdown (%)             | 47.70%     |
 
----
+***
 
 ### **Semi-Annual Report**
 
@@ -78,7 +68,7 @@ View full reports here:
 | Avg. Win Rate (%)              | 66.80%     |
 | Max Drawdown (%)               | 47.70%     |
 
----
+***
 
 ### **Annual Report**
 
@@ -92,27 +82,20 @@ View full reports here:
 | Avg. Win Rate (%)         | 66.73%     |
 | Max Drawdown (%)          | 47.70%     |
 
----
-
-
+***
 
 ## 🆚 **Whale Strategy Source Code**
 
-
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
-
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
 
 ## 📢 **Final Summary**
 
-> This strategy has been tested with real market data over an extended period, delivering **high frequency, stability, controlled risk, and strong profitability**.
-> It’s ideal for **small to medium capital quantitative traders**, especially for **short-term BTC/ETH trades**.
-> It also serves as a great reference case for **crypto quant enthusiasts and strategy developers**.
+> This strategy has been tested with real market data over an extended period, delivering **high frequency, stability, controlled risk, and strong profitability**. It’s ideal for **small to medium capital quantitative traders**, especially for **short-term BTC/ETH trades**. It also serves as a great reference case for **crypto quant enthusiasts and strategy developers**.
 
----
+***
 
 **Keywords:** Whale Strategy, Crypto Quant Strategy, BTC Quant, ETH Quant, Short-term Trading, Backtest, Automated Trading, Low Drawdown Strategy, High-Frequency Crypto Trading
 
----
+***
 
-✅ Do you want me to **keep the humorous tone in the FAQ like your original Chinese version** or keep it fully formal?
-✅ Should I **also generate an eye-catching title + tagline for this English version** (like a marketing headline)?
+✅ Do you want me to **keep the humorous tone in the FAQ like your original Chinese version** or keep it fully formal? ✅ Should I **also generate an eye-catching title + tagline for this English version** (like a marketing headline)?

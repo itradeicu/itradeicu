@@ -1,8 +1,6 @@
-
-# 【Exclusive Reveal】CEX + DEX Full-Market Monitoring + Indicator Push, Easily Capture Profit Opportunities
+# 【Exclusive Reveal】CEX + DEX Full-Market Monitoring + Indicator Push, Easily Capture Profit Opportuni
 
 This article is produced by the [https://itrade.icu](https://www.itrade.icu) Quantitative Trading Lab.
-
 
 ## 📊 Introduction
 
@@ -42,16 +40,10 @@ Receive updates across multiple channels, ensuring you never miss any market sig
 3. **Second-Level Updates**: Fast data refresh, accurate and reliable information
 4. **Intelligent Analysis**: Not just prices—let indicators guide your trading decisions
 
----
+***
+
 ## Graphic
-![](/codes/welfare/market_1.png)
-
-![](/codes/welfare/market_2.png)
-
-![](/codes/welfare/market_3.png)
 
 ## Full-Market Monitoring + Indicator Push Source Code
 
-
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
-
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.

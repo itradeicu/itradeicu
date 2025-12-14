@@ -1,9 +1,6 @@
-
-# 【Quant Trading Tool】One-Click Batch Backtesting for Freqtrade Strategies – Find Your Optimal Strategy Effortlessly
-
+# 【Quant Trading Tool】One-Click Batch Backtesting for Freqtrade Strategies – Find Your Optimal Strateg
 
 This article is brought to you by [https://itrade.icu](https://www.itrade.icu) Quant Trading Lab.
-
 
 ## 📊 Key Features
 
@@ -38,14 +35,10 @@ Test any market condition, coin, or strategy effortlessly — true quantitative 
 3. **Clear Visualization**: Comprehensive, easy-to-read reports
 4. **Quantitative Power Tool**: Quickly identify the most suitable trading strategies
 
----
-## Graphic
-![](/codes/welfare/testing_1.png)
+***
 
-![](/codes/welfare/testing_2.png)
+## Graphic
 
 ## Batch Backtesting Freqtrade Strategy Source Code
 
-
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.  
-
+This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.

@@ -1,6 +1,6 @@
 # 📘 Comprehensive Analysis of MACD Indicator: From Calculation Logic to Practical Strategies
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
----
+
+## This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
 
 ## 🧠 Basic Concepts + Principles
 
@@ -17,12 +17,11 @@ Core Idea:
 2. **DEA Line** (also known as Signal): 9-day EMA smoothing line of DIF
 3. **MACD Histogram**: DIF - DEA, reflecting changes in bullish and bearish forces
 
-![alt text](./image-1.png)
----
+## ![alt text](../../.gitbook/assets/image-1.png)
 
 Of course, below is a more detailed **MACD Indicator Calculation Algorithm Analysis**, suitable for inclusion in technical tutorials or quantitative strategy documents:
 
----
+***
 
 ## 🧮 Detailed Calculation
 
@@ -30,7 +29,7 @@ Of course, below is a more detailed **MACD Indicator Calculation Algorithm Analy
 
 MACD (Moving Average Convergence Divergence) indicator reflects the trend strength and reversal signals of prices through the difference between two exponential moving averages (EMA).
 
----
+***
 
 ### Step One: Calculate EMA12 and EMA26
 
@@ -48,7 +47,7 @@ Where the smoothing coefficient $\alpha = \frac{2}{n+1}$, n is the period.
 * For EMA12, $\alpha = \frac{2}{13} ≈ 0.1538$
 * For EMA26, $\alpha = \frac{2}{27} ≈ 0.0741$
 
----
+***
 
 ### Step Two: Calculate DIF Value (also known as MACD Fast Line)
 
@@ -58,7 +57,7 @@ $$
 
 DIF reflects the difference between short-term and long-term trends, representing changes in price momentum.
 
----
+***
 
 ### Step Three: Calculate DEA Value (also known as Signal Line or MACD Slow Line)
 
@@ -71,7 +70,7 @@ $$
 * Smoothing coefficient: $\alpha = \frac{2}{10} = 0.2$
 * Meaning: Used to smooth the DIF curve and confirm the trend
 
----
+***
 
 ### Step Four: Calculate MACD Histogram (Histogram)
 
@@ -83,16 +82,16 @@ $$
 
 Multiplied by 2 because the original indicator designer Gerald Appel wanted to amplify the visual effect.
 
----
+***
 
-We now use a set of simplified closing prices to **manually calculate the three MACD elements (DIF, DEA, MACD Histogram) step by step**.  
+We now use a set of simplified closing prices to **manually calculate the three MACD elements (DIF, DEA, MACD Histogram) step by step**.\
 Suitable for understanding the essence of the formula, and also suitable for inclusion in teaching documents or paid courses.
 
----
+***
 
 Good, I'll help you make the content more complete and accurate while keeping it clear and easy to understand. Below is the rewritten version, including formulas, detailed calculations, notes, and table display:
 
----
+***
 
 ## 🔢 Simulation Example Data (Closing Prices):
 
@@ -104,7 +103,7 @@ Using MACD parameters **(12, 26, 9)**.
 
 For simplicity, **initialize EMA12 and EMA26 using the simple moving average (SMA) of the first 6 closing prices**, and start calculating from the 7th data point.
 
----
+***
 
 ### 📐 Smoothing Coefficient (α) Calculation Formula
 
@@ -114,25 +113,23 @@ $$
 \alpha = \frac{2}{N + 1}
 $$
 
-* **Smoothing coefficient for EMA12**:
+*   **Smoothing coefficient for EMA12**:
 
-  $$
-  \alpha_{EMA12} = \frac{2}{12 + 1} = \frac{2}{13} ≈ 0.1538
-  $$
+    $$
+    \alpha_{EMA12} = \frac{2}{12 + 1} = \frac{2}{13} ≈ 0.1538
+    $$
+*   **Smoothing coefficient for EMA26**:
 
-* **Smoothing coefficient for EMA26**:
+    $$
+    \alpha_{EMA26} = \frac{2}{26 + 1} = \frac{2}{27} ≈ 0.0741
+    $$
+*   **Smoothing coefficient for DEA (EMA on DIF)**:
 
-  $$
-  \alpha_{EMA26} = \frac{2}{26 + 1} = \frac{2}{27} ≈ 0.0741
-  $$
+    $$
+    \alpha_{DEA} = \frac{2}{9 + 1} = \frac{2}{10} = 0.2
+    $$
 
-* **Smoothing coefficient for DEA (EMA on DIF)**:
-
-  $$
-  \alpha_{DEA} = \frac{2}{9 + 1} = \frac{2}{10} = 0.2
-  $$
-
----
+***
 
 ## 🧮 Step 1: Initialize EMA12 and EMA26
 
@@ -142,7 +139,7 @@ $$
 EMA12_{init} = EMA26_{init} = \frac{10 + 10.2 + 10.5 + 10.4 + 10.7 + 10.9}{6} = 10.45
 $$
 
----
+***
 
 ## 📈 Step 2: Start Recursive Calculation from Day 7
 
@@ -154,10 +151,10 @@ $$
 
 Where:
 
-* $P_{today}$: Today's closing price
+* $P\_{today}$: Today's closing price
 * $\alpha$: Corresponding EMA smoothing coefficient
 
----
+***
 
 ### Day 7 Closing Price = 11.2
 
@@ -193,7 +190,7 @@ $$
 MACD柱_7 = 2 \times (DIF_7 - DEA_7) = 2 \times (0.061 - 0.061) = 0
 $$
 
----
+***
 
 ### Day 8 Closing Price = 11.5
 
@@ -227,7 +224,7 @@ $$
 MACD柱_8 = 2 \times (DIF_8 - DEA_8) = 2 \times (0.139 - 0.077) = 0.124
 $$
 
----
+***
 
 ### Day 9 Closing Price = 11.3
 
@@ -261,7 +258,7 @@ $$
 MACD柱_9 = 2 \times (0.176 - 0.097) = 0.158
 $$
 
----
+***
 
 ### Day 10 Closing Price = 11.6
 
@@ -295,18 +292,18 @@ $$
 MACD柱_{10} = 2 \times (0.230 - 0.124) = 0.212
 $$
 
----
+***
 
 ## ✅ Calculation Results Summary Table
 
-| Date     | EMA12  | EMA26  | DIF   | DEA   | MACD Histogram |
-| ------ | ------ | ------ | ----- | ----- | ----- |
-| Day 7  | 10.564 | 10.503 | 0.061 | 0.061 | 0.000 |
-| Day 8  | 10.714 | 10.575 | 0.139 | 0.077 | 0.124 |
-| Day 9  | 10.803 | 10.627 | 0.176 | 0.097 | 0.158 |
-| Day 10 | 10.927 | 10.697 | 0.230 | 0.124 | 0.212 |
+| Date   | EMA12  | EMA26  | DIF   | DEA   | MACD Histogram |
+| ------ | ------ | ------ | ----- | ----- | -------------- |
+| Day 7  | 10.564 | 10.503 | 0.061 | 0.061 | 0.000          |
+| Day 8  | 10.714 | 10.575 | 0.139 | 0.077 | 0.124          |
+| Day 9  | 10.803 | 10.627 | 0.176 | 0.097 | 0.158          |
+| Day 10 | 10.927 | 10.697 | 0.230 | 0.124 | 0.212          |
 
----
+***
 
 ## 🧠 Explanation and Supplements
 
@@ -314,25 +311,23 @@ $$
 * **MACD Histogram**: Some systems display as `DIF - DEA`; here multiplied by 2 to amplify the signal for better visualization.
 * **EMA Smoothing Coefficient**: Larger α makes EMA more responsive to the latest prices; EMA12 is more sensitive than EMA26.
 * **Indicator Meaning**:
-
   * Larger DIF indicates short-term trend stronger than long-term trend.
   * DEA is the smoothed confirmation line of DIF, used to filter signal noise.
   * MACD Histogram reflects changes in bullish and bearish forces; larger bars indicate trend acceleration, smaller bars indicate trend weakening.
 
----
-
+***
 
 ## 🔁 Detailed Explanation of Trading Signals
 
-| Signal Type       | Condition                    | Meaning Explanation               | Trading Suggestions                  |
-| ---------- | --------------------- | ------------------ | --------------------- |
-| **Golden Cross (Long)** | DIF crosses above DEA            | Bullish trend starts, short-term momentum exceeds long-term momentum  | Consider buying or adding positions, bullish entry signal        |
-| **Dead Cross (Short)** | DIF crosses below DEA            | Bearish trend starts, short-term momentum weakens      | Consider selling or shorting, risk control or exit       |
-| **Histogram Turns Red**    | MACD Histogram turns from negative to positive             | Bullish momentum strengthens, buyers start to dominate    | Trend reverses upward, suitable for following long         |
-| **Histogram Turns Green**    | MACD Histogram turns from positive to negative             | Bearish momentum strengthens, sellers dominate      | Trend reverses downward, suggest reducing or selling        |
-| **Zero Axis Crossover**   | DIF or DEA crosses above / below 0 axis | Key point for bullish/bearish trend switch, confirms trend direction change | Combine with other indicators to confirm trend, can serve as entry/exit auxiliary signal |
+| Signal Type               | Condition                                      | Meaning Explanation                                                         | Trading Suggestions                                                                      |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Golden Cross (Long)**   | DIF crosses above DEA                          | Bullish trend starts, short-term momentum exceeds long-term momentum        | Consider buying or adding positions, bullish entry signal                                |
+| **Dead Cross (Short)**    | DIF crosses below DEA                          | Bearish trend starts, short-term momentum weakens                           | Consider selling or shorting, risk control or exit                                       |
+| **Histogram Turns Red**   | MACD Histogram turns from negative to positive | Bullish momentum strengthens, buyers start to dominate                      | Trend reverses upward, suitable for following long                                       |
+| **Histogram Turns Green** | MACD Histogram turns from positive to negative | Bearish momentum strengthens, sellers dominate                              | Trend reverses downward, suggest reducing or selling                                     |
+| **Zero Axis Crossover**   | DIF or DEA crosses above / below 0 axis        | Key point for bullish/bearish trend switch, confirms trend direction change | Combine with other indicators to confirm trend, can serve as entry/exit auxiliary signal |
 
----
+***
 
 ### Explanation
 
@@ -341,11 +336,11 @@ $$
 * **Zero Axis Crossover** sometimes used to confirm trend strength and direction, especially in oscillating markets with reference value.
 * In actual trading, suggest combining volume, price patterns, and other technical indicators for multiple confirmations to avoid false signals.
 
----
+***
 
 If needed, I can help you write "Practical Strategy Examples" or "MACD Advanced Usage" sections. Do you need it?
 
----
+***
 
 ## ⚖️ Indicator Advantages and Disadvantages
 
@@ -363,41 +358,39 @@ If needed, I can help you write "Practical Strategy Examples" or "MACD Advanced 
 * **Fixed Parameters Limit**: Commonly used (12, 26, 9) parameters may not apply to all markets, need adjustment based on variety and period for better performance.
 * **Low Sensitivity to Extreme Conditions**: Slow response to sudden sharp fluctuations, possibly missing optimal trading timings.
 
----
+***
 
 In practical application, suggest combining MACD with other trend, momentum, or volume indicators to enhance signal accuracy and reliability.
 
----
+***
 
 ## ⚠️ Signal Traps and Counter Strategies
 
-| Trap Type   | Description                                     | Counter Suggestions                                     |
-| ------ | -------------------------------------- | ---------------------------------------- |
-| False Golden Cross    | After MACD golden cross signal, price does not continue rising, instead quickly pulls back, leading to misjudging bullish trend   | Combine with volume increase to confirm buying force, use trend lines or longer-term moving averages to assist in judging trend direction, avoid chasing highs   |
-| Dead Cross Rises Instead of Falling | After MACD dead cross signal, price does not fall but rebounds, making bearish signal invalid        | Wait for price to break key support levels or confirm downtrend, avoid blindly shorting prematurely              |
-| Histogram Oscillation    | MACD histogram fluctuates continuously near zero axis, red/green bars alternate frequently, signals noisy, direction unclear | Pair with momentum indicators like RSI, ADX to filter oscillating conditions, avoid frequent trading, choose periods with obvious trends |
-| Lagging Signals   | MACD signals generated late, missing optimal entry or exit timings                | Combine with faster responsive indicators (e.g., short-period moving averages, KDJ) for multiple confirmations, improve trading timeliness       |
-| Parameters Not Applicable  | Fixed (12,26,9) parameters not applicable to all markets or periods, leading to large signal errors   | Adjust MACD parameters based on target asset volatility characteristics and trading periods, dynamically optimize strategy         |
+| Trap Type                           | Description                                                                                                                     | Counter Suggestions                                                                                                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| False Golden Cross                  | After MACD golden cross signal, price does not continue rising, instead quickly pulls back, leading to misjudging bullish trend | Combine with volume increase to confirm buying force, use trend lines or longer-term moving averages to assist in judging trend direction, avoid chasing highs |
+| Dead Cross Rises Instead of Falling | After MACD dead cross signal, price does not fall but rebounds, making bearish signal invalid                                   | Wait for price to break key support levels or confirm downtrend, avoid blindly shorting prematurely                                                            |
+| Histogram Oscillation               | MACD histogram fluctuates continuously near zero axis, red/green bars alternate frequently, signals noisy, direction unclear    | Pair with momentum indicators like RSI, ADX to filter oscillating conditions, avoid frequent trading, choose periods with obvious trends                       |
+| Lagging Signals                     | MACD signals generated late, missing optimal entry or exit timings                                                              | Combine with faster responsive indicators (e.g., short-period moving averages, KDJ) for multiple confirmations, improve trading timeliness                     |
+| Parameters Not Applicable           | Fixed (12,26,9) parameters not applicable to all markets or periods, leading to large signal errors                             | Adjust MACD parameters based on target asset volatility characteristics and trading periods, dynamically optimize strategy                                     |
 
----
-
-
+***
 
 ## 🔍 What is MACD Divergence? How to Find It?
 
----
+***
 
 ### 1. What is Divergence?
 
-Divergence is the situation where price trends and indicator trends are "out of sync".  
+Divergence is the situation where price trends and indicator trends are "out of sync".\
 Simply put:
 
 * **Price makes new high/low, but MACD does not follow with new high/low**
 * This implies current trend momentum may weaken, price may reverse or adjust.
 
-![alt text](./image-2.png)
+![alt text](../../.gitbook/assets/image-2.png)
 
----
+***
 
 ### 2. How to Find Divergence?
 
@@ -408,24 +401,24 @@ Simply put:
 
 For example, price sequence:
 
-```text
+```
 [10, 11, 10.8, 11.5, 11.3, 10.7, 10, 9.8]
 ```
 
 * 11 and 11.5 are local high points, because they are higher than adjacent prices
 * 10 and 9.8 are local low points, because they are lower than adjacent prices
 
----
+***
 
 #### Second Step: Find MACD Histogram Values Corresponding to These High and Low Points
 
 Corresponding MACD Histogram for price points, for example:
 
-```text
+```
 [0.5, 0.8, 0.6, 0.7, 0.65, -0.3, -0.6, -0.5]
 ```
 
----
+***
 
 #### Third Step: Judge **Top Divergence**
 
@@ -433,7 +426,7 @@ Corresponding MACD Histogram for price points, for example:
 * If the later price high point is higher than the previous, but the corresponding MACD Histogram is lower than the previous, it means **momentum didn't keep up**
 * At this time, **top divergence** appears, price may fall
 
----
+***
 
 #### Fourth Step: Judge **Bottom Divergence**
 
@@ -441,7 +434,7 @@ Corresponding MACD Histogram for price points, for example:
 * If the later low point is lower than the previous, but the corresponding MACD Histogram is higher than the previous, it means **bearish momentum weakens**
 * At this time, **bottom divergence** appears, price may rise
 
----
+***
 
 ### 3. Look at the Logic with Pseudocode
 
@@ -463,17 +456,16 @@ if prices[7] < prices[6] and macd_hist[7] > macd_hist[6]:
     print("Bottom divergence found, price may rise")
 ```
 
----
+***
 
 ### 4. Summary
 
-Divergence is a signal of "disconnection" between price trends and indicator trends, usually a precursor to trend weakening or reversal.  
+Divergence is a signal of "disconnection" between price trends and indicator trends, usually a precursor to trend weakening or reversal.\
 However, divergence is only a warning and cannot guarantee price reversal; comprehensive judgment should combine volume, support/resistance, etc.
-
 
 Of course! I'll help you make the content more detailed, easier to understand, and more practical:
 
----
+***
 
 ## 🧠 Advanced Usage Techniques (Detailed Version)
 
@@ -491,7 +483,6 @@ Of course! I'll help you make the content more detailed, easier to understand, a
 ### 3. Strength Trend Judgment
 
 * Observe changes in MACD histogram trend:
-
   * **Histogram continuously enlarges** indicates strengthening bullish/bearish forces, trend acceleration, consider adding positions or chasing rises along the trend.
   * **Histogram starts to shrink** prompts weakening momentum, should be cautious or prepare to reduce positions.
 
@@ -501,13 +492,14 @@ Of course! I'll help you make the content more detailed, easier to understand, a
 * When divergence occurs, if RSI is in extreme zones (above 70 overbought, below 30 oversold), divergence signal effectiveness greatly increases.
 * This combination can help filter false signals, increasing operation success rate.
 
----
+***
 
 What do you think after this refinement, is it more practical and clear? If needed, I can also help you write demo code or live application cases.
 
----
+***
 
 ## 🧪 Case Practical: Freqtrade Strategy Integration
+
 `SimpleMACDStrategy` is a basic trend-following strategy based on the MACD indicator. It mainly uses the crossover of MACD line and signal line to judge buy/sell timings:
 
 * **Buy Signal**: When MACD line crosses from below to above the signal line (i.e., golden cross), and MACD line is in positive zone, indicating bullish trend start, execute buy.
@@ -562,6 +554,7 @@ class SimpleMACDStrategy(IStrategy):
         return dataframe
 
 ```
+
 This backtest result shows that the `SimpleMACDStrategy` strategy executed 59 trades during the test period:
 
 * **Average Per-Trade Profit %** is -0.06%, slightly loss-making, indicating limited overall profitability.
@@ -572,36 +565,22 @@ This backtest result shows that the `SimpleMACDStrategy` strategy executed 59 tr
 
 Overall, this strategy based on single MACD indicator performs weakly, possibly due to excessive signal noise, obvious lag impact, etc.
 
-
----
+***
 
 ## 🧾 Indicator Summary + Practical Suggestions
 
-* **MACD Indicator Advantages**
-  MACD is a momentum indicator combining short-term and long-term trends, particularly suitable for identifying trending markets, helping traders judge market bullish/bearish force comparisons and trend strength. It shows changes in bullish/bearish momentum through the crossover of DIF (fast line) and DEA (slow line), as well as MACD histogram. MACD has better trend-tracking effect on medium-long periods (e.g., daily, 4-hour), and can filter some price noise.
-
-* **Not Recommended for Standalone Use**
-  Although MACD is powerful, as a lagging indicator, prone to false signals in oscillating conditions. Relying solely on MACD easily leads to frequent entries/exits and losses. Therefore, suggest combining with other auxiliary indicators, such as:
-
+* **MACD Indicator Advantages** MACD is a momentum indicator combining short-term and long-term trends, particularly suitable for identifying trending markets, helping traders judge market bullish/bearish force comparisons and trend strength. It shows changes in bullish/bearish momentum through the crossover of DIF (fast line) and DEA (slow line), as well as MACD histogram. MACD has better trend-tracking effect on medium-long periods (e.g., daily, 4-hour), and can filter some price noise.
+* **Not Recommended for Standalone Use** Although MACD is powerful, as a lagging indicator, prone to false signals in oscillating conditions. Relying solely on MACD easily leads to frequent entries/exits and losses. Therefore, suggest combining with other auxiliary indicators, such as:
   * **EMA (Exponential Moving Average)**: Confirm trend direction, pair with MACD to filter false signals.
   * **RSI (Relative Strength Index)**: Judge overbought/oversold states, assist take-profit/stop-loss.
   * **Volume Indicators**: Confirm true effectiveness of momentum, avoid false breakouts.
-
-* **Strategy Combination Examples**
-  To improve trading success rate, can design multi-indicator coordinated strategies, for example:
-
-  * **MACD Golden Cross + EMA Uptrend**:
-    When MACD fast line (DIF) crosses above slow line (DEA) and both are above zero axis, with EMA showing uptrend, enter long, follow the trend.
-
-  * **MACD Dead Cross + RSI Overbought Zone**:
-    When MACD fast line crosses below slow line, and RSI value above 60 (showing short-term overbought), suitable for taking profit at highs or considering reversal short, reducing risks.
-
-* **Parameter Adjustment Suggestions**
-  Default MACD parameters (12, 26, 9) are the most commonly used and long-tested configurations in the market, suitable for most varieties and medium-long periods.
-
+* **Strategy Combination Examples** To improve trading success rate, can design multi-indicator coordinated strategies, for example:
+  * **MACD Golden Cross + EMA Uptrend**: When MACD fast line (DIF) crosses above slow line (DEA) and both are above zero axis, with EMA showing uptrend, enter long, follow the trend.
+  * **MACD Dead Cross + RSI Overbought Zone**: When MACD fast line crosses below slow line, and RSI value above 60 (showing short-term overbought), suitable for taking profit at highs or considering reversal short, reducing risks.
+* **Parameter Adjustment Suggestions** Default MACD parameters (12, 26, 9) are the most commonly used and long-tested configurations in the market, suitable for most varieties and medium-long periods.
   * For high-frequency trading or extremely short periods (e.g., 1-minute, 5-minute), can appropriately adjust parameters to (5, 13, 5), etc., making indicator more sensitive to price changes, faster response to market fluctuations.
   * Different markets and varieties have different characteristics, suggest optimizing parameters through backtesting to find configurations suitable for your trading targets and style.
 
----
+***
 
 In summary, MACD is an important tool for trend traders, but needs reasonable combination with other indicators and risk management measures to improve win rate and return stability in volatile markets.
