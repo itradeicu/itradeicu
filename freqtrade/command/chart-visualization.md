@@ -1,6 +1,9 @@
 # 📘 Chapter 6: "Show and Tell! plot-dataframe Chart Visualization Tutorial"
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+&#x20;
 
 During strategy development, backtesting results are often presented in tabular form, making it difficult to quickly identify issues. The `plot-dataframe` command can visualize buy/sell points, indicator lines, and price movements in charts, helping you instantly see strategy performance.
 

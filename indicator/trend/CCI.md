@@ -1,6 +1,9 @@
 # 📘 CCI Trend Indicator Analysis: Calculation Principles, Trading Signals, and Practical Strategy Guide
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+
 
 ***
 

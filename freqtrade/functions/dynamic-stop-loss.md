@@ -1,5 +1,5 @@
 ## 📘 Master Smart Dynamic Stoploss in Freqtrade: Only Cut Loss When Necessary
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In automated trading, stoploss is key to controlling losses and protecting capital.
 Compared to fixed stoploss, Freqtrade's `custom_stoploss` allows **dynamic, flexible stoploss design**, helping you protect profits during uptrends and exit quickly during losses.
 

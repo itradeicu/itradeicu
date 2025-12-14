@@ -1,5 +1,5 @@
 # 📘 Freqtrade config.json Basics & Initialization
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 Before using Freqtrade for strategy backtesting, data downloading, or live trading, the most crucial step is to **create and configure the `config.json` file**. It serves as the “main command center” of the entire trading framework, determining which exchange to connect, how to trade, how strategies run, and how funds are allocated.
 
 This guide explains the purpose, creation, structure, and editing tips for `config.json`, helping you get started quickly and avoid common pitfalls.

@@ -1,6 +1,9 @@
 # 📘 Chapter 5: "How to Optimize Strategy Parameters? Freqtrade Hyperopt Quick Start"
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+
 
 &#x20;In strategy development, beyond constructing buy/sell logic, **parameter settings often determine the final profit and risk ratio**.
 

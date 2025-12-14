@@ -1,5 +1,5 @@
 ## 📘 Boost Your Profit by 10% with One Line? How to Use `custom_roi` for Precise Take Profit
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade strategies, `custom_roi` is a highly useful function that allows you to dynamically adjust your take profit target based on current position status, time, and profit.
 Compared to static `minimal_roi`, `custom_roi` is more flexible and can help improve profitability and risk management.
 

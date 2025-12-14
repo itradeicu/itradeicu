@@ -1,5 +1,5 @@
 # 📘 Still Blocked by Orders? Try This Freqtrade Smart Order System
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In quantitative trading, order price and order timeout are key factors that determine trading efficiency and risk management.
 The Freqtrade bot provides several custom hooks to finely control buy and sell prices and the order lifecycle, preventing opportunity loss caused by unfavorable order execution or locked funds.
 

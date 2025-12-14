@@ -1,5 +1,5 @@
 # Sell When Up? Cut When Down? Unlocking Freqtrade’s Entry & Exit Logic
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In a `Freqtrade` strategy, entry and exit rules are the backbone of performance. Properly configuring take-profit, stoploss, and exit signals significantly improves both profitability and risk management. This guide focuses on the core parameters controlling entries, exits, and stop management.
 
 ---

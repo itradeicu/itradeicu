@@ -1,5 +1,5 @@
 # Freqtrade Strategy Not Running, Running Wrong, or Going Haywire? These Parameters Might Not Be Configured Properly
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 Before writing and running a Freqtrade strategy, there are several **basic parameters** you must understand.
 These parameters control the strategy’s data timeframe, preloading behavior, concurrent trades, safety checks, etc., and directly affect execution and stability.
 

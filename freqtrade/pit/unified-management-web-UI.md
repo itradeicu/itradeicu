@@ -1,4 +1,4 @@
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 # 🖥️ 统一管理多个 Freqtrade 策略的 WebUI 页面实战指南
 
 > 本文将详细讲解如何通过一个主端口统一访问多个 Freqtrade 策略实例的 Web UI 页面，提升多策略部署的可视化管理效率。

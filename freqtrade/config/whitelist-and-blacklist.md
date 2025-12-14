@@ -1,5 +1,5 @@
 # 📘 Chapter 7: Whitelist and Blacklist Mechanism — Trade Only the Coins You Want
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In the crypto market, trading pairs are abundant, but their quality varies greatly. Freqtrade provides the `pair_whitelist` and `pair_blacklist` mechanisms, allowing you to **precisely select the coins you want to trade**. This helps avoid trading “low-quality” or low-liquidity coins and improves strategy stability and safety.
 
 These two parameters are flexible and practical, making them essential tools for every quantitative trader.

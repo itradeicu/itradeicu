@@ -1,5 +1,5 @@
 # ⚔️ Spot vs Futures: Trading Modes and Leverage Configuration
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 When using Freqtrade, the choice of trading mode directly affects your strategy logic, risk management, and order behavior. You can choose **spot trading** or **futures trading with leverage**. Different modes require different configuration parameters, such as `margin_mode`, `leverage`, and `liquidation_buffer`.
 
 This guide explains the purpose, use cases, and practical considerations for these settings to help you build a sound risk management system.

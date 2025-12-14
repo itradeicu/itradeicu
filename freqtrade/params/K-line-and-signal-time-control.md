@@ -1,5 +1,5 @@
 # Don’t Get Fooled by Old Signals! Mastering Signal Timing in Freqtrade
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In strategy development, the timeliness of signals has a huge impact on results. Freqtrade provides several parameters to help you precisely control signal timing and data processing frequency, preventing premature or delayed signals from causing missed opportunities.
 
 ---

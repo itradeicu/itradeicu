@@ -1,5 +1,5 @@
 # 💰 Trading Currency and Fund Management Configuration
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade, fund configuration forms the foundation for all strategy operations. Whether trading spot or futures, parameters like `stake_currency`, `stake_amount`, and `tradable_balance_ratio` determine which currency is used per trade, how much capital is allocated, and how account risk is controlled.
 
 Proper configuration helps strategies run more stably and safely, while poor settings may lead to order failures or liquidation during live trading.

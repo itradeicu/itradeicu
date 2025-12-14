@@ -1,5 +1,5 @@
 # Position Adjustment Made Easy! Freqtrade Dynamic Position Management Guide
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In live trading, dynamically adjusting positions—adding or reducing trades in batches—is essential for maximizing profits and managing risk. Freqtrade supports dynamic position adjustment and multiple entries, enabling advanced operations like scaling in and out. This guide covers key parameters and practical examples.
 
 ---

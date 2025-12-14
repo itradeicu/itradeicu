@@ -1,5 +1,5 @@
 # 📘 Smart Position Control Tools! Freqtrade’s Two Key Functions to Say Goodbye to Rigid Buying
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In quantitative trading, position management is a key factor in controlling risk and improving returns.
 Freqtrade provides two powerful and flexible functions to help us intelligently adjust positions:
 

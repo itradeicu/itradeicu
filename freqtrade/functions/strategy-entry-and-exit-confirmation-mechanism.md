@@ -1,5 +1,5 @@
 # 💹 Don’t Just Trade on Signals! Use `confirm_trade_entry` to Avoid Losing Buys
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In quantitative strategies, generating buy or sell signals is only the first step.
 Actual trade execution requires multiple checks.
 Freqtrade provides two key functions:

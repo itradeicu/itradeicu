@@ -1,5 +1,5 @@
 # 📘 Smart Use of Leverage! Complete Freqtrade Leverage Strategy Guide
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade, when trading with leverage (especially on futures markets like Binance Futures), you can flexibly control leverage via configuration or strategy code.
 
 This guide covers:

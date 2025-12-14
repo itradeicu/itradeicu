@@ -1,5 +1,5 @@
 # Can't Even Draw Charts but Claim to Know Strategies? Full Freqtrade `plot_config` Guide
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade strategy development, **visualizing charts** is one of the most intuitive ways to understand signals and debug strategies.
 With the `plot_config` parameter, you can clearly display indicators, buy/sell signals, stop-loss points, exit reasons, etc., greatly improving strategy debugging efficiency.
 

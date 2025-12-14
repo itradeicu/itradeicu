@@ -1,5 +1,5 @@
 # Limit Orders Not Filling, Market Orders Slipping? Understanding Freqtrade’s Order System
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade strategy execution, how orders are placed, how long they remain valid, and whether to use exchange-native stoploss orders directly affect execution efficiency and fund safety. The order system configuration is essentially the “last mile” to stable live trading. This guide explains key parameters with examples.
 
 ---

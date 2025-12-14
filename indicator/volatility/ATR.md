@@ -1,5 +1,5 @@
 # 📘 Comprehensive Analysis of ATR Indicator: Core Tool for Volatility, Stop-Loss, and Position Management
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 ## 🧠 Basic Concepts
 
 **ATR (Average True Range)**, developed by technical analysis expert **J. Welles Wilder**, is used to measure **market volatility**. It does not directly generate buy or sell signals but indicates: *“Is the market fluctuation large or small?”*

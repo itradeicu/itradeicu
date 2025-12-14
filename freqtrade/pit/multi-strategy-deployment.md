@@ -1,4 +1,4 @@
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 # 🤖 Freqtrade 多策略部署实战指南（PM2 & Docker 双版本）
 
 > 本文将介绍如何在同一台服务器上，**同时部署多个 Freqtrade 策略**，每个策略独立运行、互不干扰，支持日志追踪、数据库隔离、可复用一套资金或分账户配置。我们将分别以 **PM2 管理方式** 和 **Docker 多容器方式**实现部署。

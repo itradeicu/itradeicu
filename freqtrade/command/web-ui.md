@@ -1,5 +1,5 @@
 # 📘 Chapter 7: How to Set Up Freqtrade Web UI – Installation & Usage Guide
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 When running Freqtrade for live trading or backtesting, you may want to **monitor your strategy, positions, and P\&L in real-time**. This is where the **Web UI (FreqUI)** comes in.
 
 This guide covers installing and running the Web UI, both via CLI and Docker, and highlights common usage scenarios.

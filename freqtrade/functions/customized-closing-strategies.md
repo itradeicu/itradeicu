@@ -1,5 +1,5 @@
 # 📘 Sell Only When You Should! Freqtrade Quantitative Custom Exit Guide — Precise Exits, Profit Without Loss
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In automated trading, **exiting a trade is even more important than entering**.
 `Freqtrade` provides two functions to help you build **smarter sell strategies**:
 

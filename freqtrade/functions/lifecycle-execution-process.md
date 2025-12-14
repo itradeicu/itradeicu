@@ -1,5 +1,5 @@
 # 📘 「Revealed」Full Lifecycle of a Freqtrade Strategy – Build a Stable and Profitable Crypto Trading Bot!
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 Freqtrade is an open-source cryptocurrency trading bot supporting automated strategy execution, backtesting, and live trading. Understanding the complete lifecycle of a strategy is essential for developing stable and efficient trading systems.
 
 This guide breaks down the Freqtrade strategy workflow step by step, helping you master core logic and key checkpoints.

@@ -2,7 +2,7 @@
 # 📘 RSI (Relative Strength Index) Guide: The Momentum King’s Application
 
 ---
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 ## I. Basic Concept
 
 RSI (Relative Strength Index) is a commonly used **momentum indicator**, introduced by technical analyst J. Welles Wilder in 1978.

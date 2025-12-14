@@ -1,6 +1,9 @@
 # 📘 Comprehensive Analysis of MACD Indicator: From Calculation Logic to Practical Strategies
 
-## This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
+> is article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+
 
 ## 🧠 Basic Concepts + Principles
 

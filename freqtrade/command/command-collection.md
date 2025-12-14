@@ -1,5 +1,5 @@
 # 📘 Chapter 1: "Freqtrade Common Commands Guide – Master Crypto Trading Bot Operations in One Article"
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 *“Master the key commands for cryptocurrency trading bots from beginner to live trading in one article!”*
 
 Freqtrade is a powerful open-source cryptocurrency automated trading framework that supports strategy development, historical backtesting, parameter optimization, data analysis, and live trading.

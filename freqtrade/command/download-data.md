@@ -1,6 +1,9 @@
 # 📘 Chapter 3: "How to Download Historical K-Line Data in Crypto? Freqtrade download-data Tutorial"
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+&#x20;
 
 In Freqtrade, **K-line data is the foundation for backtesting, optimization, and live trading**. Whether you are a strategy developer or researcher, mastering the `download-data` command is the first step in quantitative trading.
 

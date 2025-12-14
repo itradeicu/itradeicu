@@ -1,5 +1,5 @@
 # 📘 Profit Machine! Three Steps to Master Freqtrade Core Buy/Sell Signals – A Step-by-Step Guide to Writing Automated Trading Strategies
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In the Freqtrade strategy framework, `populate_indicators`, `populate_entry_trend`, and `populate_exit_trend` are the three most basic and commonly used functions. They are responsible for:
 
 * ✍️ Calculating technical indicators (e.g., RSI, MACD, moving averages)

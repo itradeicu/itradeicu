@@ -1,5 +1,5 @@
 # 🔌 Connecting to Exchanges: Detailed Freqtrade Exchange Configuration
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 Freqtrade connects to exchanges through the `exchange` and `ccxt_config` settings in `config.json`. This step is essential for strategy execution and involves API keys, WebSocket, rate limits, and other critical parameters.
 
 > This article provides a detailed guide on configuring exchange access parameters and recommended practices for a more efficient and stable connection.

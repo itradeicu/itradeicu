@@ -136,7 +136,10 @@ The strategy was backtested on data from **2020-01-01 to 2025-08-01**. Full mont
 
 ## 🆚 **BoneEdge Strategy Source Code**
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+
 
 ## 📢 **Final Summary**
 

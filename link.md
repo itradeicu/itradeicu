@@ -1,3 +1,6 @@
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
 <div class="notice-tip">
   ⚠️ Limited availability: Currently, we only provide support for paid consultations, article purchases, and membership-related inquiries. Other questions will not be answered at this time. Thank you for your understanding.
 </div>

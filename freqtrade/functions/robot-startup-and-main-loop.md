@@ -1,5 +1,5 @@
 # 📘 Get Ahead! Freqtrade Strategy “Startup + Loop” Dual Core, Trading Bot Mastery Guide!
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In the Freqtrade strategy framework, `bot_start()` and `bot_loop_start()` are two important lifecycle callback functions. They allow developers to insert custom logic at the bot’s startup and at the start of each main loop.
 Understanding and properly using these two functions can help you control the trading bot more flexibly, improving strategy performance and extensibility.
 

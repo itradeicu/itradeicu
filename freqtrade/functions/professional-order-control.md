@@ -1,5 +1,5 @@
 # 📘 Mastering Smart Order Pricing in Freqtrade: Full Guide to `adjust_entry_price` & `adjust_order_price`
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu)  for more benefits.
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
 In Freqtrade, controlling order prices is crucial for minimizing slippage and improving strategy efficiency. The bot provides **two core hooks**:
 
 * `adjust_entry_price` — Adjusts **initial buy orders** only (first-time entries).

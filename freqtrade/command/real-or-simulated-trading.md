@@ -1,6 +1,9 @@
 # 📘 Chapter 2: "Live or Simulated Trading? Freqtrade trade Command Explained"
 
-This article is produced by [https://www.itrade.icu](https://www.itrade.icu) Quantitative Trading Lab. Please visit [https://www.itrade.icu](https://www.itrade.icu) for more benefits.&#x20;
+> This article was produced by the Quantitative Trading Lab at [https://www.itrade.icu](https://www.itrade.icu). Visit for more benefits.
+
+
+&#x20;
 
 `freqtrade trade` is the core command to start a live or simulated trading bot, and it’s the key step for deploying automated trading in practice.
 
